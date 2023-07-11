@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(18, 37, 59);
+    display: flex;
+    flex-direction: column;    
+    height: 100vh;
+}
+
+#calculator{
+    height: 500px;
+    margin: auto;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(1, 61, 80);
+}
+#screenbg{
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#screen{
+    background-color: rgb(95, 150, 136);
+    height: 80%;
+    width: 320px;
+    display: flex;
+    justify-content: end;
+}
+#buttons{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.btnrow{
+    display: flex;
+}
+button{
+    width: 80px;
+    height: 80px;
+    font-size: large;
+}
+.bigbtn{
+    width:160px;
+}
+.operator,.percent{
+    background-color: rgb(75, 155, 221);
+}
+.switch{
+    background-color: rgb(75, 155, 221);
+}
+.equal{
+    background-color: rgb(42, 189, 67);
+}
+.number{
+    background-color: grey;
+    color: white;
+}
+#output{
+    align-self: center;
+    font-size: 50px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+.ac,.del{
+    background-color: crimson;
+}
+
