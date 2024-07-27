@@ -1,2 +1,2 @@
 # calculator
-[Live page](https://top-shibly.github.io/calculator/)
+[Live page](https://shiblysohaib.github.io/calculator/)
